@@ -1,0 +1,7 @@
+Project_Name: Tatlim
+Company_Name: Enpoi
+Logo_Link: 1z-WNYY61082l3emMtreQ1j_jrG6a4azk
+Customer_ID: 14082023
+Model_typ: Detection
+nc: 2
+Names: [fire, non_fire]
