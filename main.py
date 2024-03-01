@@ -86,7 +86,17 @@ def copy_file_to_directory(src_file_path, dest_dir):
 # Load Configuration
 config = load_yaml('config.yaml')
 data = load_yaml('data.yaml')
-model_path = os.path.join(os.getcwd(), config['Project_Name'], 'pre-trained_model', 'best.pt')
+# Step 1: Extract the file ID from the Google Drive link
+file_id = "1ArTd0tbsx5GCYzLz0yLT_HOWwjukwPuc"
+
+# Step 2: Define the destination path including the pre-trained_model folder
+destination_path = os.path.join(os.getcwd(), 'pre-trained_model', 'yolov8n.pt')
+
+# Step 3: Download the file from Google Drive directly into the pre-trained_model folder
+gdd.download_file_from_google_drive(file_id=file_id, dest_path=destination_path, unzip=False)
+
+# Step 4: Define the model path in the code
+model_path = destination_path
 data['model_path'] = model_path
 save_yaml(data, 'data.yaml')
 
@@ -126,11 +136,6 @@ if not os.path.exists(config['Logo_Link']):
 result_dir = PROJECT_PATHS['RESULTS_PATH']
 layout = first_page_layout()
 window = sg.Window(config['Company_Name'], layout, resizable=True)
-
-source_file = "C:\\Users\\kalin\\Desktop\\best.pt"
-destination_directory = os.path.join(PROJECT_PATHS['MODEL_PATH'])
-
-copy_file_to_directory(source_file, destination_directory)
 
 # Event Loop
 while True:

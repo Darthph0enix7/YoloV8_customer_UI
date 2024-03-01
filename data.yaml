@@ -1,5 +1,5 @@
 image_path: C:/Users/kalin/Downloads\55756_73148.png
-model_path: c:\Users\kalin\Desktop\YoloV8_customer_UI\Tatlim\pre-trained_model\best.pt
+model_path: /home/adam/YoloV8_customer_UI/pre-trained_model/yolov8n.pt
 names:
 - fire
 - non_fire
