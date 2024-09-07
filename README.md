@@ -1,8 +1,14 @@
-# YoloV8_customer_UI
-Our YoloV8 Customer UI is a cutting-edge project designed to empower our valued customers to validate and enhance their AI models with ease and precision. Whether you're using AI for illness analysis, image recognition, or any other application, our user-friendly interface simplifies the validation process and ensures your AI is constantly improving.
+# YoloV8 Customer UI
 
-With YoloV8 Customer UI, doctors and users can effortlessly assess the accuracy of AI predictions. Simply open the program, input the AI's analysis, and choose whether the validation is correct or incorrect. If the AI's prediction is deemed incorrect, our system seamlessly sends the data back to us for further training, ensuring that your AI model continuously evolves and becomes more accurate over time.
+YoloV8 Customer UI is a streamlined tool designed to help users validate and enhance AI models without dedicating extra time. The interface allows users, such as doctors and analysts, to review AI predictions effortlessly and provide feedback on the model's accuracy.
 
-This project is hosted on GitHub, allowing for transparency, collaboration, and customization. We believe in the power of community-driven AI improvement, and YoloV8 Customer UI is your gateway to actively contribute to the enhancement of AI solutions.
+When using YoloV8 Customer UI, you simply input the AI's analysis into the system. You then decide whether the AI's prediction is correct or incorrect. If a prediction is incorrect, the data is automatically sent back for further training. This continuous feedback loop ensures that the AI model improves over time, all while you work.
 
-Join us in revolutionizing AI validation and improvement with YoloV8 Customer UI, where customer feedback drives progress, and accuracy is our commitment. Together, we're shaping the future of AI.
+The project is hosted on GitHub to maintain transparency and enable customization, allowing you to integrate and adjust the tool as needed. YoloV8 Customer UI makes it easier than ever to contribute to the refinement of AI models, enhancing their accuracy in real-world applications.
+
+Below are two demonstration images of the UI:
+
+- ![Customer UI 1](Customerui1.png)
+- ![Customer UI 2](Customerui2.png)
+
+This tool is ideal for users who want their AI models to improve passively during their regular workflow, without the need for specialized attention.
