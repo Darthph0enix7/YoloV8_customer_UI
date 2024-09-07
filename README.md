@@ -8,7 +8,7 @@ The project is hosted on GitHub to maintain transparency and enable customizatio
 
 Below are two demonstration images of the UI:
 
-- ![Customer UI 1](Customerui_1.png)
-- ![Customer UI 2](Customerui_2.png)
+![Customer UI 1](Customerui_1.png)
+![Customer UI 2](Customerui_2.png)
 
 This tool is ideal for users who want their AI models to improve passively during their regular workflow, without the need for specialized attention.
